@@ -1,0 +1,147 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+    background-color: #CADEFC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.nav-link {
+    color: #CCA8E9;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+
+.nav-link:hover {
+    color: #CADEFC;
+    background-color: #CCA8E9;
+}
+
+.bi {
+    margin-right: 5px;
+}
+
+#heading h1{
+    background-color: #CCA8E9;
+    padding: 20px 10px;
+    border-radius: 12px;
+
+    font-weight: 600;
+    color: #CADEFC;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #CCA8E9;
+}
+
+  .task-item p {
+    margin-left: 50px;
+    margin-top: 16px;
+    font-weight: 600;
+    color: #CCA8E9;
+  }
+  
+  .task-item input {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px; 
+  }
+  
+  form input{
+    border: none;
+    border-bottom: 1px solid #CADEFC;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .custom-input {
+    color: #CCA8E9; 
+  }
+
+  .custom-input::placeholder {
+    color: #CCA8E9;
+  }
+
+  .item button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: #CCA8E9;
+  }
+
+  .task-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-item input {
+    margin-right: 10px;
+  }
+
+  .checkbox[type="checkbox"] {
+    -webkit-appearance: none; /* Remove default styles for Webkit browsers (Safari, Chrome) */
+    -moz-appearance: none; /* Remove default styles for Mozilla browsers (Firefox) */
+    appearance: none; /* Remove default styles for other browsers */
+    width: 16px; /* Set the width of the custom checkbox */
+    height: 16px; /* Set the height of the custom checkbox */
+    background-color: white; /* Set the background color of the checkbox */
+    border: 1px solid #CCA8E9; /* Set the border color of the checkbox */
+    border-radius: 3px; /* Add rounded corners */
+  }
+  
+  /* Change the color when the checkbox is checked */
+  .checkbox[type="checkbox"]:checked {
+    background-color: #CCA8E9; /* Set the background color when checked */
+    border: 1px solid #CCA8E9; /* Set the border color when checked */
+  }
+
+  .delete-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .delete-item button {
+    border: 2px solid #CCA8E9;
+    background-color: #CADEFC;
+    border-radius: 8px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #CCA8E9;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .delete-item button:hover {
+    background-color: #CCA8E9;
+    color: #CADEFC;
+  }
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
